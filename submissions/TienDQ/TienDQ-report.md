@@ -47,11 +47,12 @@ Bạn kiểm lô của tôi: Chưa có    Quyết định nhận được: Chưa
 Kiểm tra lint: 28 ảnh, đủ tag và không kèm ảnh. Lint còn 8 cảnh báo QC1-02: A05 (L1, R1), A06 (L1, R1), A07 (L1), A08 (L1), A09 (R1), A14 (R1). Coach đã xác nhận không thấy các vạch được liệt kê ở A05–A09; A14 là ảnh thêm.
 
 ## 6. Ảnh chụp màn hình
-Chưa đính kèm ảnh chụp giao diện CVAT. Cần thêm các ảnh sau vào bản báo cáo trước khi nộp:
-1. Tab Labels của project.
-2. Một ảnh front đã gán đủ làn, vùng lái, đèn / biển.
-3. Một ảnh fisheye có polyline cong, phóng to để thấy các điểm.
-4. Đoạn XML export có <polyline label="lane">.
+CVAT cục bộ có hai task độc lập (front và fisheye); không có project Road chứa hai task này. Ảnh bằng chứng được lưu cùng thư mục submission:
+
+1. [Task front và trạng thái job](screenshots/front-task-29.png).
+2. [Job front, frame A01 có nhãn](screenshots/front-job-20.png).
+3. [Job fisheye, frame B01 có nhãn](screenshots/fisheye-job-21.png).
+4. Đoạn XML mẫu được lưu tại [TienDQ-lane-xml-excerpt.xml](TienDQ-lane-xml-excerpt.xml).
 
 ## 7. Tự đánh giá
 Lỗi đáng chú ý khi rà bản trước là position các vạch ở A01 bị đảo giữa L1/L2 và R1/R2; bản export hiện tại đã sửa. Để tránh lặp lại ở Ngày 20, kiểm tra thứ tự trái–phải của các vạch và đối chiếu với vùng direct trước khi lưu thuộc tính position.

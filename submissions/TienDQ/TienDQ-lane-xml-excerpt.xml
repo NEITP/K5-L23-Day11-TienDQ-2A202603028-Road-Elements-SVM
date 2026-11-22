@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotation-excerpt image="A01">
+<polyline label="lane" source="manual" occluded="0" points="1278.63,705.93;972.74,632.52;740.39,575.53;557.30,531.67;462.90,510.16" z_order="0">
+      <attribute name="position">R2</attribute>
+      <attribute name="style">solid</attribute>
+      <attribute name="color">yellow</attribute>
+      <attribute name="kind">single</attribute>
+    </polyline>
+</annotation-excerpt>
