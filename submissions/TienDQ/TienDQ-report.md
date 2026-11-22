@@ -10,8 +10,7 @@ Thời điểm export trên CVAT: [điền]    Số lần nộp lại sau Rework
 | 6 label, đúng kiểu | [xác nhận trên CVAT] | File export có các label theo taxonomy. |
 | Thuộc tính và giá trị | [xác nhận trên CVAT] | File export đọc được theo CVAT for images 1.1. |
 | 4 tag ảnh | Có trong export | Checker đọc đủ tag trên 28/28 ảnh; camera khớp tên file. |
-Cách kết thúc polyline trên bản CVAT này: [điền thao tác bạn dùng]
-Cách đặt tag ảnh trên bản CVAT này: [điền thao tác bạn dùng]
+
 
 ## 2. Số lượng đã gán
 | Task | Ảnh | lane | road_curb | crosswalk | drivable | traffic_light | traffic_sign |
