@@ -4,12 +4,12 @@
   "guideline": "Road v1.0",
   "name": "TienDQ",
   "revision": 1,
-  "created_at": "2026-11-22T04:57:19+00:00",
+  "created_at": "2026-11-22T05:38:07+00:00",
   "files": [
     {
       "file": "TienDQ-front.zip",
       "bytes": 59070,
-      "sha256": "0565a8c67d6ae59b0709f2e6c6938fddb982604d0452c11e65e6697ad27d5e28",
+      "sha256": "ad113bb3c4b42fd4f4a1edf6b789ff5e7f0378b86ab58e9cf75232fd2e2b3b70",
       "contains_images": false,
       "images": 16,
       "images_unlabelled": 0,
@@ -25,18 +25,18 @@
     },
     {
       "file": "TienDQ-fisheye.zip",
-      "bytes": 25904,
-      "sha256": "be7543b3180af979fccdf537c47160f9f66a63522b949fb496f56947a11a0d90",
+      "bytes": 27241,
+      "sha256": "bbdef418438da1645e4a090e985814d9937e0223044554556db109a51521bc0d",
       "contains_images": false,
       "images": 12,
       "images_unlabelled": 0,
       "images_all_tags": 12,
       "shapes_by_label": {
         "crosswalk": 10,
-        "drivable": 10,
+        "drivable": 9,
         "lane": 5,
         "road_curb": 2,
-        "traffic_light": 1,
+        "traffic_light": 7,
         "traffic_sign": 1
       }
     }
